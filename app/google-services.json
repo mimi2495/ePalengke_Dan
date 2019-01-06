@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "189266555619",
+    "firebase_url": "https://cervirus-f2f85.firebaseio.com",
+    "project_id": "cervirus-f2f85",
+    "storage_bucket": "cervirus-f2f85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189266555619:android:5d4e29186a9ab191",
+        "android_client_info": {
+          "package_name": "com.example.santo.epalengke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189266555619-u83ir0kg4rrq5clafi4o50vda6apf17f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.santo.epalengke",
+            "certificate_hash": "03543c269b8d89aee029723239711e3881ff2961"
+          }
+        },
+        {
+          "client_id": "189266555619-jmoafi53s7la9hpe5ifkuo0lg69c8lsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgigfuNhJRrK4JkjBFMrQKwbzZ99AnC10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189266555619-jmoafi53s7la9hpe5ifkuo0lg69c8lsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

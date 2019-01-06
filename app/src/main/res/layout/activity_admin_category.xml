@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:background="@drawable/input_design"
+        android:textColor="@color/Second"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@+id/slogan_category"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pork"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pork" />
+
+        <ImageView
+            android:id="@+id/beef"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beef" />
+
+        <ImageView
+            android:id="@+id/poultry"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chickens" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/seafoods"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/fish" />
+
+        <ImageView
+            android:id="@+id/fruits"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/fruits" />
+
+        <ImageView
+            android:id="@+id/rice"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rice" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/condiments"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/condiments"
+            />
+
+        <ImageView
+            android:id="@+id/beverages"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/beverages"
+            />
+
+        <ImageView
+            android:id="@+id/vegetables"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/vegetables"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/input_design"
+        android:textColor="@color/Second"
+        android:text="Logout" />
+
+
+</RelativeLayout>

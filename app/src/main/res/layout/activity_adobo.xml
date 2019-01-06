@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recip"
+    tools:context=".AdoboActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="220dp"
+        android:layout_height="173dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/adobo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="33dp"
+        android:text="Ingredients:
+2 lbs chicken cut into serving pieces
+3 pieces dried bay leaves
+8 tablespoons soy sauce
+4 tablespoons white vinegar
+5 cloves garlic crushed
+1 1/2 cups water
+3 tablespoons cooking oil
+1 teaspoon sugar
+1/4 teaspoon Salt
+1 teaspoon whole peppercorn"
+        android:textColor="@color/qwe"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginBottom="0dp"
+        android:text="Procedure:
+1.Combine chicken, soy sauce, and garlic in a large bowl. Mix well. Marinate the chicken for at least 1 hour. Note: the longer the time, the better.
+
+2.eat a cooking pot. Pour cooking oil.
+
+3.When the oil is hot enough, pan-fry the marinated chicken for 2 minutes per side.
+
+4.Pour-in the remaining marinade, including garlic. Add water. Bring to a boil.
+
+5.Add dried bay leaves and whole peppercorn. Simmer for 30 minutes or until the chicken gets tender
+
+6.Add vinegar. Stir and cook for 10 minutes.
+
+7.Put-in the sugar, and salt. Stir and turn the heat off.Serve hot. Share and Enjoy!"
+        android:textColor="@color/qwe"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/done_btn"
+        android:layout_width="135dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/button"
+        android:text="Done" />
+
+
+</RelativeLayout>

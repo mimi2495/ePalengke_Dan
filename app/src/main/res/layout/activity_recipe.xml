@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mama"
+    tools:context=".RecipeActivity">
+
+
+    <TextView
+        android:id="@+id/adobo"
+        android:layout_width="70dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="89dp"
+        android:text="Adobo"
+        android:textColor="@color/Second"
+        android:textStyle="italic"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/paksiw"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="169dp"
+        android:text="Paksiw na Banus"
+        android:textColor="@color/Second"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/menudo"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="127dp"
+        android:text="Menudo"
+        android:textColor="@color/Second"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:textStyle="italic"
+        android:text="Ulam Recipe"
+        android:textColor="@color/Second"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
